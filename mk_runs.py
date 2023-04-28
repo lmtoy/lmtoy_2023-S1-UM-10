@@ -7,14 +7,7 @@
 import os
 import sys
 
-# in prep of the new lmtoy module
-try:
-    lmtoy = os.environ['LMTOY']
-    sys.path.append(lmtoy + '/lmtoy')
-    import runs
-except:
-    print("No LMTOY with runs.py")
-    sys.exit(0)
+from lmtoy import runs
 
 project="2023-S1-UM-10"
 
@@ -68,6 +61,9 @@ on["J172109.65+704444.1"] =  [ 106780, 106781, 106782, 106784, 106785, 106786,] 
 
 on["J173823.16+442409.4"] = [ 104754, 104755, 104756, 104758, 104759, 104760]   # 5-feb
 
+on["J212943.01-054459.1"] = [ 109072, 109073, 109074, 109076, 109077, 109078,]  # 28-apr
+
+
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1["J080434.08+455008.2"] =  ""
@@ -92,6 +88,8 @@ pars1["J164120.91+602420.7"] =  "badcb=0/2,1/1,1/2,2/1,2/4,3/3,3/4,3/5"
 pars1["J164229.74+554957.0"] =  "badcb=0/2,1/1,1/2,2/1,2/4,3/3,3/4,3/5"
 pars1["J172109.65+704444.1"] =  ""
 pars1["J173823.16+442409.4"] =  "badcb=0/2,1/1,1/2,2/1,2/4,3/3,3/4,3/5"
+pars1["J212943.01-054459.1"] =  ""
+
 
 pars2 = {}
 pars2["J080434.08+455008.2"] = "srdp=1 admit=0"
@@ -116,8 +114,9 @@ pars2["J164120.91+602420.7"] = "srdp=1 admit=0"
 pars2["J164229.74+554957.0"] = "srdp=1 admit=0"
 pars2["J172109.65+704444.1"] = "srdp=1 admit=0"
 pars2["J173823.16+442409.4"] = "srdp=1 admit=0"
+pars2["J212943.01-054459.1"] = "srdp=1 admit=0"
 
-# Found 22 sources
+# Found 23 sources
 
 if __name__ == '__main__':    
     #runs.mk_runs(project, on, pars1, pars2, sys.argv[1:])
