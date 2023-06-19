@@ -6,26 +6,30 @@
 # 3-2: 104540-104546, 104883-104889
 
 # Combinations
-106538_106557 Possible detection at ~81 GHz 
-104551_104557 Possible detection at ~107.5 GHz 
+106538_106557 Possible detection at ~80 GHz 
+104551_104557 Possible detection at ~108 GHz 
 104429_104537 Possible detection at ~87 GHz 
 104540_104546 No detection 
 104439_104445 Possible detection at ~106 GHz 
-104560_104566 Possible detection at ~97.5 GHz 
-105739_105747 Possible detection at ~83.5 GHz 
-104690_104696 Detection at ~86 GHz 
-107174_107181 Possible detection at ~110 GHz 
-104699_104705 No detection 
+104560_104566 Possible detection at ~98.2 GHz 
+105739_105747 Possible detections at ~84 and 81.5 GHz 
+104690_104696 Detection at ~86 GHz and possible detection at ~110 GHz 
+107174_107181 Possible detection at ~110.2 GHz 
+104699_104705 Possible detections at 92 and 103 GHz
 104449_104455 No detection 
-107184_107193 Possible detection at ~109 GHz 
-106828_106830 Integration not complete 
-106371_106377 Possible detection in band 5 
-104744_104750 No detection 
-106480_106486 Broad line at ~90 GHz 
+107184_107193 Detection at 109 GHz 
+106828_106830 Integration not complete
+109145_109149 Detection at 108.7 GHz
+110177_110183 Possible detection at 109 GHz
+109169_109175 Very wobbly baseline 
+106371_106377 Possible detection at 108 GHz 
+104744_104750 Possible detection at 108.5 GHz
+106480_106486 Possible detection at 90.2 GHz 
 104865_104871 Several spikes in band 0 
 104874_104880 Possible detections at ~79 and ~105 GHz
-106780_106786 Possible detections at ~91 and ~106 GHz
-104754_104760 Possible detection at ~78 GHz
+104883_104889 Possible detections at 105 and 109.7 GHz
+106780_106786 Detections at ~91 and ~106 GHz
+104754_104760 Possible detection at ~78.1 GHz
 109204_109210 Detections at ~81 and ~108 GHz
 109072_109078 Possible detection at ~78 GHz 
 
