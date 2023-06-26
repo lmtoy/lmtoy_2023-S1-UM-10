@@ -20,7 +20,6 @@
 107184_107193 Possible detection at ~109 GHz 
 106828_106830 Integration not complete 
 106371_106377 Possible detection in band 5
-108942_108948 BAD - RMS/RMS0 too high in all observations
 104744_104750 No detection 
 106480_106486 Broad line at ~90 GHz 
 104865_104871 Several spikes in band 0 
