@@ -31,7 +31,8 @@
 106780_106786 Detections at ~91 and ~106 GHz
 104754_104760 Possible detection at ~78.1 GHz
 109204_109210 Detections at ~81 and ~108 GHz
-109072_109078 Possible detection at ~78 GHz 
+109072_109078 Possible detection at ~78 GHz
+108942_108948 BAD - RMS/RMS0 too high in all observations 
 
 # Obsnums with additional boards removed
 
